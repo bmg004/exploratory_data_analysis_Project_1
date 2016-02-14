@@ -1,5 +1,5 @@
 ##Plot4.r
-
+@@ -0,0 +1,29 @@
 data <- read.table(dataFile, header=TRUE, sep=";", stringsAsFactors=FALSE, dec=".")
 subSetData <- data[data$Date %in% c("1/2/2007","2/2/2007") ,]
 
